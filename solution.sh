@@ -7,3 +7,5 @@ do
     tmp=$(echo "$file" | sed 's|/|-|g')
     cp "$file" "$3/$tmp"
 done
+
+tar -zcf "$4" "$3"
