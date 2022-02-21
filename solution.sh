@@ -9,3 +9,5 @@ do
 done
 
 tar -zcf "$4" "$3"
+
+echo done
